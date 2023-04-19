@@ -1,0 +1,391 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('background.png');
+    background-size: cover;
+    height: 650px;
+}
+.logo img{
+    width: 150px;
+    height: 90px;
+    /* margin-left: 20px; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+#button1{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+}
+#button2{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin-left: 25px;
+}
+.content{
+    color: white;
+    text-align: center;
+    margin-top: 130px;
+}
+.content h1{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+.content p {
+    font-size: larger;
+    margin-top: 5px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+input{
+    height: 40px;
+    width: 300px;
+    font-size: larger;
+}
+.button_form {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    font-size: larger;
+    border: none;
+}
+.enjoy{
+    color: antiquewhite;
+    text-align: left;
+    background-color: black;
+    display: block;
+    padding: 80px 80px 100px 200px;
+    height: 150px;
+    position: relative;
+    top: 190px;
+      outline: 10px solid rgb(16, 15, 15); 
+    outline-offset: 10px rgb(236, 231, 231) ;
+
+    
+}
+#e{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#e1{
+    font-size: 50px;
+    top: 50px;
+}
+#e2{
+    font-size: 25px;
+    bottom: 100px;
+}
+#e3{
+    position: relative;
+    left: 600px;
+    bottom: 300px;
+    width: 500px;
+    height: 300px;
+}
+#e4{
+    position: relative;
+    left: 180px;
+    bottom: 375px;
+    width: 320px;
+    height: 150px;
+}
+.down{
+    color: antiquewhite;
+    text-align: justify;
+    background-color: black;
+    display: block;
+    padding: 150px 200px 200px 80px;
+
+    height: 50px;
+    top: 200px;
+      outline: 10px solid rgb(16, 15, 15); 
+    outline-offset: 10px rgb(236, 231, 231) ;
+    
+
+
+}
+#d{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    
+}
+#d3{
+     position: relative;
+    bottom: 400px; 
+    width: 400px;
+    height: 300px;
+    left: 100px;
+    
+
+}
+#d1{
+   position: relative;
+   left: 600px; 
+   bottom: 80px;
+}
+#d2{
+    position: relative;
+    left: 600px;
+    bottom: 80px; 
+}
+.watch{
+    color: antiquewhite;
+    text-align: left;
+    background-color: black;
+    display: block;
+    padding: 80px 80px 200px 200px;
+    height: 150px;
+    position: relative;
+    top: 210px;
+      outline: 10px solid rgb(16, 15, 15); 
+    outline-offset: 10px rgb(236, 231, 231) ;
+
+    
+}
+#w{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#w1{
+    font-size: 50px;
+    top: 50px;
+}
+#w2{
+    font-size: 25px;
+    bottom: 100px;
+}
+#w3{
+    position: relative;
+    left: 600px;
+    bottom: 250px;
+    width: 600px;
+    height: 400px;
+}
+.create{
+    color: antiquewhite;
+    text-align: justify;
+    background-color: black;
+    display: block;
+    padding: 150px 200px 200px 80px;
+
+    height: 180px;
+    top: 220px;
+      outline: 10px solid rgb(16, 15, 15); 
+    outline-offset: 10px rgb(236, 231, 231) ;
+    
+
+
+}
+#c{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    
+}
+#c3{
+     position: relative;
+    bottom: 400px;
+    width: 400px;
+    height: 400px; 
+    left: 180px;
+
+
+
+}
+#c1{
+   position: relative;
+   left: 700px; 
+   bottom: 80px;
+}
+#c2{
+    position: relative;
+    left: 700px;
+    bottom: 100px; 
+}
+.freq{
+    color: white;
+    text-align: justify;
+    background-color: black;
+    display:block;
+    padding: 150px 100px 100px 80px;
+
+    height: 900px;
+    top: 220px;
+      outline: 10px solid rgb(16, 15, 15); 
+    outline-offset: 10px rgb(236, 231, 231) ;
+    
+}
+#f1{
+    position: relative;
+    top: 100px;
+    color: white; 
+    text-align: center; 
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#b1{
+    background-color: rgb(75, 69, 69);
+    color: white;
+    display: block;
+    height: 60px;
+    width: 700px;
+    font-size: 30px;
+    position: relative;
+    top: 100px;
+     left: 280px; 
+    
+
+}
+#b2{
+    background-color: rgb(75, 69, 69);
+    color: white;
+    display: block;
+    height: 60px;
+    width: 700px;
+    font-size: 30px;
+    position: relative;
+    top: 110px;
+     left: 280px; 
+    
+    
+}
+#b3{
+    background-color: rgb(75, 69, 69);
+    color: white;
+    display: block;
+    height: 60px;
+    width: 700px;
+    font-size: 30px;
+    position: relative;
+    top: 120px;
+     left: 280px; 
+    
+    
+}
+#b4{
+    background-color: rgb(75, 69, 69);
+    color: white;
+    display: block;
+    height: 60px;
+    width: 700px;
+    font-size: 30px;
+    position: relative;
+    top: 130px;
+     left: 280px; 
+}
+#b5{
+    background-color: rgb(75, 69, 69);
+    color: white;
+    display: block;
+    height: 60px;
+    width: 700px;
+    font-size: 30px;
+    position: relative;
+    top: 140px;
+     left: 280px; 
+}
+#b6{
+    background-color: rgb(75, 69, 69);
+    color: white;
+    display: block;
+    height: 60px;
+    width: 700px;
+    font-size: 30px;
+    position: relative;
+    top: 150px;
+     left: 280px; 
+} 
+
+input{
+    height: 60px;
+    width: 400px;
+    font-size: large;
+    
+}
+.buttonform1{
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    font-size: large;
+    height: 70px;
+    
+}
+.form1{
+    position: relative;
+    bottom: 250px;
+    left: 450px;
+}
+#b7{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-size: 20px;
+}
+.ques{
+    color: rgb(155, 147, 147);
+    text-align: justify;
+    background-color: black;
+    display:block;
+    padding: 100px 80px 80px 80px;
+    position: relative;
+    height: 300px;
+    bottom: 150px;
+      outline: 10px solid rgb(16, 15, 15); 
+    outline-offset: 10px rgb(236, 231, 231) ;
+    
+}
+#q1{
+    position: relative;
+    left: 250px;
+}
+#q2{
+    position: relative;
+    left: 250px;
+}
+#q3{
+    position: relative;
+    left: 450px;
+    bottom: 170px;
+}
+#q4{
+    position: relative;
+    left: 650px;
+    bottom: 340px;
+}
+#q5{
+    position: relative;
+    left: 850px;
+    bottom: 510px;
+}
+#butt1{
+    background-color: rgb(11, 10, 10);
+    color:rgb(163, 157, 157) ;
+    border: 2px solid white;
+    padding: 15px;
+    position: relative;
+    bottom: 440px;
+    left: 300px;
+
+}
+#q6{
+    color: rgb(155, 147, 147);
+    position: relative;
+    left: 305px;
+    bottom: 440px;
+}
